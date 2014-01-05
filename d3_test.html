@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='icon' href="favicon.ico" sizes="256x256" type="image/png" />
+  <title>Football Overload</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2 style="text-align:center">Stats for Every Match in the Football League 2013-14</h2>
+    <select>
+      <option style="display:none;"> Select a League</option>
+      <option value="E0">Premier League</option>
+      <option value="E1">Championship</option>
+      <option value="E2">League One</option>
+      <option value="E3">League Two</option>
+    </select>
+    
+    <p>
+      <a href="http://www.football-data.co.uk/notes.txt" target="_blank">Click here for the key</a>
+    </p>
+    
+    <p>
+      Click on the column headers to sort a column
+    </p>
+
+  </div>
+  
+  <div id="table"></div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="/js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" language="javascript" src="/js/jquery.dataTables.min.js"></script>
+  <script src="/js/d3_test.js"></script>
+</body>
+</html>
